@@ -58,6 +58,9 @@
     <Compile Include="Factories\BossFactory.cs" />
     <Compile Include="Factories\EnemyFactory.cs" />
     <Compile Include="Factories\ItemFactory.cs" />
+    <Compile Include="Models\ArchimagCpp.cs" />
+    <Compile Include="Models\Kovalskiy.cs" />
+    <Compile Include="Models\PestovMinusMinus.cs" />
     <Compile Include="Models\VVG.cs" />
     <Compile Include="Services\CombatService.cs" />
     <Compile Include="Services\GameEngine.cs" />
