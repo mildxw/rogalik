@@ -12,7 +12,7 @@ namespace rogalik.Models
         {
             Name = "Маг";
             HP = 25;
-            Attack = 15;
+            Attack = 5;
             Defense = 2;
         }
 

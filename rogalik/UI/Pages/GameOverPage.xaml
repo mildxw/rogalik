@@ -4,8 +4,15 @@
 
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="YOU DIED" FontSize="30"/>
-            <Button Content="Заново" Click="Restart_Click"/>
+            <TextBlock Text="Потрачено"
+                       FontSize="30"
+                       Margin="0,0,0,20"
+                       HorizontalAlignment="Center" />
+
+            <Button x:Name="RestartButton"
+                    Content="Заново"
+                    Width="140"
+                    Height="40" />
         </StackPanel>
     </Grid>
 </Page>

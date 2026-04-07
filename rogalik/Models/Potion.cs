@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace rogalik.Models
 {
-    public  class Potion : Item
+    public class Potion : Item
     {
         public override string ToString()
         {
-            return Name();
+            return Name;
         }
     }
 }
