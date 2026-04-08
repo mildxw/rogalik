@@ -16,8 +16,8 @@ namespace rogalik.Models
 
         public bool IsAlive => HP > 0;
 
-        public int Attack => Weapon?.Attack ?? 5;
-        public int Defense => Armor?.Defense ?? 2;
+        public int Attack => 5 + (Weapon?.Attack ?? 0);
+        public int Defense => 3 + (Armor?.Defense ?? 0);
 
         public bool IsFrozen { get; set; }
         public bool IsDefending { get; private set; }

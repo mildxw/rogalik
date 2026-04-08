@@ -136,7 +136,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\Images\" />
+    <Resource Include="Assets\Images\gameover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\mage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\boss_archimag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\boss_goblin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\goblin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\boss_skeleton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\skeleton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\chest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\boss_skeleton2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Images\empty.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

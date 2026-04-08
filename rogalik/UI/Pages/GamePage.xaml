@@ -38,12 +38,9 @@
 
         <Border Grid.Row="1" BorderBrush="Black" BorderThickness="2" CornerRadius="8" Margin="0,0,0,10">
             <Grid>
-                <TextBlock x:Name="RoomTextBlock"
-                           Text="Добро пожаловать в игру"
-                           FontSize="26"
+                <WrapPanel x:Name="EnemiesPanel"
                            HorizontalAlignment="Center"
-                           VerticalAlignment="Center"
-                           TextWrapping="Wrap"/>
+                           VerticalAlignment="Center" />
             </Grid>
         </Border>
 
